@@ -1,0 +1,58 @@
+
+.img-resp
+{
+    
+    width: 100%;
+    height: auto;
+
+}
+
+.font-style{
+
+    @media screen {max-width: 600px;
+        width: 600px;
+        height: auto;
+        
+    }
+}
+
+.font-stylep1{
+
+    font-size: 15px;
+
+}
+
+.font-styleh2{
+
+    font-size: 20px;
+
+}
+
+.font-styleh3{
+
+    font-size: 20px;
+
+}
+
+.contain{
+    display: flex;
+    width: 500px;
+    gap: 10px;
+    
+}
+
+.flex{
+    display: flex;
+    flex-direction:row-reverse;
+    gap: 20px;
+    width: 100%;
+    background-color: darkgrey;
+    flex-wrap: wrap;
+    font-size: 12px;
+    justify-content:space-between;
+    
+}
+
+
+
+
